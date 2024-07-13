@@ -1801,7 +1801,7 @@ pub const TextureInternalFormat = enum(types.Enum) {
     bgra = binding.BGRA,
     depth_component = binding.DEPTH_COMPONENT,
     stencil_index = binding.STENCIL_INDEX,
-    //luminance = binding.LUMINANCE,
+    luminance = binding.LUMINANCE,
 
     red_integer = binding.RED_INTEGER,
     rg_integer = binding.RG_INTEGER,
