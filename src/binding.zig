@@ -212,6 +212,7 @@ pub const COLOR = 0x1800;
 pub const DEPTH = 0x1801;
 pub const STENCIL = 0x1802;
 pub const STENCIL_INDEX = 0x1901;
+pub const LUMINANCE = 0x1909;
 pub const DEPTH_COMPONENT = 0x1902;
 pub const RED = 0x1903;
 pub const GREEN = 0x1904;
