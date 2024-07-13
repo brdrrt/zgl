@@ -65,15 +65,15 @@ fn checkError() void {
 }
 
 /// Integer conversion helper.
-fn cs2gl(size: usize) types.SizeI {
+pub fn cs2gl(size: usize) types.SizeI {
     return @as(types.SizeI, @intCast(size));
 }
 
-fn ui2gl(val: usize) types.UInt {
+pub fn ui2gl(val: usize) types.UInt {
     return @as(types.UInt, @intCast(val));
 }
 
-fn b2gl(b: bool) types.Boolean {
+pub fn b2gl(b: bool) types.Boolean {
     return if (b)
         binding.TRUE
     else
