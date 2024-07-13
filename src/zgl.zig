@@ -1945,7 +1945,7 @@ pub const PixelFormat = enum(types.Enum) {
     depth_component = binding.DEPTH_COMPONENT,
     stencil_index = binding.STENCIL_INDEX,
     depth_stencil = binding.DEPTH_STENCIL,
-    //luminance = binding.LUMINANCE,
+    luminance = binding.LUMINANCE,
 
     red_integer = binding.RED_INTEGER,
     rg_integer = binding.RG_INTEGER,
