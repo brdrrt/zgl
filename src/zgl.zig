@@ -2427,7 +2427,7 @@ pub fn framebufferRenderbuffer(buffer: types.Framebuffer, target: FramebufferTar
     checkError();
 }
 
-const FramebufferStatus = enum(types.UInt) {
+pub const FramebufferStatus = enum(types.UInt) {
     complete = binding.FRAMEBUFFER_COMPLETE,
 };
 
